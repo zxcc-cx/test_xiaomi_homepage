@@ -1,0 +1,39 @@
+body,
+div,
+html,
+li,
+ol,
+p,
+a,
+span,
+textarea,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+body {
+  font: 14px/1.5 sans-serif;
+  min-width: 1226px;
+}
+/* 容器居中（用到的地方较多） */
+._body {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+}

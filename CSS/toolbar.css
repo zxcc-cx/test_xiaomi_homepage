@@ -1,0 +1,135 @@
+@media screen and (min-width: 0px) {
+  .tool_bar {
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+    bottom: 80px;
+    width: 27px;
+  }
+  .tool_bar > ol > li {
+    display: block;
+    float: left;
+    width: 27px;
+    height: 42px;
+    padding: 18px 0;
+    margin-top: -1px;
+    box-sizing: border-box;
+    border: 1px solid #f5f5f5;
+    color: #757575;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .tool_bar > ol > li > a {
+    display: block;
+    color: #757575;
+  }
+  .tool_bar > ol > li:hover > a {
+    color: #ff6700;
+    transition: all 0.2s ease;
+  }
+  .tool_bar > ol > li > a > i {
+    line-height: 20px;
+    font-size: 20px;
+  }
+  .tool_bar > ol > li > a > span {
+    display: none;
+  }
+
+  .tool_bar > ol > .back_top {
+    display: none;
+    margin-top: 14px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .tool_bar {
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    margin-left: 613px;
+    bottom: 40px;
+    width: 27px;
+  }
+  .tool_bar > ol > li {
+    display: block;
+    float: left;
+    width: 27px;
+    height: 42px;
+    padding: 18px 0;
+    margin-top: -1px;
+    box-sizing: border-box;
+    border: 1px solid #f5f5f5;
+    color: #757575;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .tool_bar > ol > li > a {
+    display: block;
+    color: #757575;
+  }
+  .tool_bar > ol > li:hover > a {
+    color: #ff6700;
+    transition: all 0.2s ease;
+  }
+  .tool_bar > ol > li > a > i {
+    line-height: 20px;
+    font-size: 20px;
+  }
+  .tool_bar > ol > li > a > span {
+    display: none;
+  }
+
+  .tool_bar > ol > .back_top {
+    display: none;
+    margin-top: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .tool_bar {
+    position: fixed;
+    z-index: 100;
+    left: auto;
+    margin-left: 0px;
+    right: 0px;
+    bottom: 40px;
+    width: 84px;
+  }
+  .tool_bar > ol > li {
+    display: block;
+    float: left;
+    width: 84px;
+    height: 92px;
+    padding: 18px 0;
+    margin-top: -1px;
+    box-sizing: border-box;
+    border: 1px solid #f5f5f5;
+    color: #757575;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .tool_bar > ol > li > a {
+    display: block;
+    color: #757575;
+  }
+  .tool_bar > ol > li:hover > a {
+    color: #ff6700;
+    transition: all 0.2s ease;
+  }
+  .tool_bar > ol > li > a > i {
+    line-height: 30px;
+    font-size: 30px;
+  }
+  .tool_bar > ol > li > a > span {
+    display: block;
+    margin: 8px auto 0;
+    white-space: nowrap;
+  }
+
+  .tool_bar > ol > .back_top {
+    display: none;
+    margin-top: 14px;
+  }
+}
